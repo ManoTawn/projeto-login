@@ -72,7 +72,7 @@ div.campo  i {
     color: white;
     font-size: 2em;
     width: 40px;
-    height: 40px;
+    height: 42px;
     padding: 5px;
     border-radius: 5px;
 }
@@ -81,7 +81,7 @@ div.campo input {
     background-color: #77ede9;
     font-size: 1em;
     width: 205px;
-    height: 100%;
+    height: 97%;
     border: 1px solid #5f2c82;
     border-radius: 8px;
     padding: 4px;
@@ -92,7 +92,7 @@ div.campo {
     background-color: #5f2c82;
     width: 100%;
     display: block;
-    height: 40px;
+    height: 39px;
     border-radius: 8px;
     margin: 5px 0px;
 }
