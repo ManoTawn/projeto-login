@@ -9,18 +9,35 @@
     section#login {
         width: 80vw;
         display: flex;
-        flex-flow: row wrap;
         
+       
     }
 
     section#login > div#imagem {
-        width: 30%;
+        width: 50%;
         height: 100%;
+       
+
     }
 
-    section#login > div#formulario {
-        width: 70%;
+    section#login > form > div#formulario {
+        width: 50%;
+        
+                
     }
+
+    section#login > form > div#formulario > p {
+        font-size: 1.1em;
+    }
+
+    section#login > form > div#formulario > h1 {
+        font-size: 2em;
+        width: 100%;
+    }
+   
+    
+   
+
 
 }
 
@@ -36,7 +53,7 @@
     section#login > div#imagem {
         float: left;
         width: 50%;
-        height: 350px;
+        height: 100%;
     }
 
     section#login > div#formulario {
@@ -53,5 +70,13 @@
         font-size: 1.2em;
         margin: 20px 0px;
     }
+
+    form > input[type=submit] {
+        width: 50%;
+    }
+
+   
+
+    
 
 }
