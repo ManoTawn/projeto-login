@@ -8,16 +8,17 @@
 
     section#login {
         width: 80vw;
+        display: flex;
+        flex-flow: row wrap;
+        
     }
 
     section#login > div#imagem {
-        float: left;
         width: 30%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
         width: 70%;
     }
 
@@ -33,13 +34,13 @@
     }
 
     section#login > div#imagem {
-        float: right;
+        float: left;
         width: 50%;
         height: 350px;
     }
 
     section#login > div#formulario {
-        float: left;
+        float: right;
         width: 50%;
         
     }
